@@ -1,0 +1,51 @@
+# Compiled class files
+*.class
+
+# Log files
+*.log
+decompile.log
+
+# Build directories
+build/
+out/
+target/
+bin/
+
+# Gradle
+.gradle/
+gradle-app.setting
+!gradle-wrapper.jar
+.gradletasknamecache
+
+# IntelliJ IDEA
+.idea/
+*.iml
+*.iws
+*.ipr
+
+# Eclipse
+.classpath
+.project
+.settings/
+
+# VS Code
+.vscode/
+
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
+desktop.ini
+
+# Cache
+.cache/
+*.cache
+
+# Local test files (keep testfiles/ as it's intentional, but ignore generated outputs)
+testfiles/output/
+testfiles/*.decompiled/
+
+# Built JARs in root (the release JAR goes via GitHub Releases)
+/divinity.jar
+/divinity-*.jar
