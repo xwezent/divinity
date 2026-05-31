@@ -51,17 +51,17 @@ See [TECHNICAL_SUMMARY.md](TECHNICAL_SUMMARY.md) for an in-depth description of 
 ## Build
 
 ```bash
-./gradlew shadowJar
+gradle fatJar
 ```
 
-Produces `build/libs/divinity-all.jar` — a single fat jar with all dependencies bundled.
+Produces `build/libs/divinity-5.0.0-all.jar` — a single fat jar with all dependencies bundled.
 
 Requires JDK 21+.
 
 ## Usage
 
 ```bash
-java -jar divinity-all.jar <input.jar|input.class> -o <output-dir>
+java -jar divinity-5.0.0-all.jar <input.jar|input.class> -o <output-dir>
 ```
 
 Common flags:

@@ -35,7 +35,7 @@ tasks.withType(Jar).configureEach {
             'Main-Class': 'com.divinity.Main',
             'Implementation-Title': 'Divinity Decompiler',
             'Implementation-Version': archiveVersion,
-            'Built-By': 'den',
+            'Built-By': 'xwezent',
             'Built-JDK': System.getProperty('java.version'),
             'Multi-Release': 'true'
         )
@@ -55,7 +55,7 @@ task fatJar(type: Jar) {
             'Main-Class': 'com.divinity.Main',
             'Implementation-Title': 'Divinity Decompiler',
             'Implementation-Version': version,
-            'Built-By': 'den',
+            'Built-By': 'xwezent',
             'Built-JDK': System.getProperty('java.version')
         )
     }
