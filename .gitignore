@@ -42,10 +42,10 @@ desktop.ini
 .cache/
 *.cache
 
-# Local test files (keep testfiles/ as it's intentional, but ignore generated outputs)
+# Generated test outputs
 testfiles/output/
 testfiles/*.decompiled/
 
-# Built JARs in root (the release JAR goes via GitHub Releases)
+# Built JARs in root (release jar is published via GitHub Releases)
 /divinity.jar
 /divinity-*.jar
